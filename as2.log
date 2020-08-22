@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.19)  22 AUG 2020 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.19)  22 AUG 2020 21:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.tex"
-(/home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.tex
+**/home/aragorn/qm2/as2.tex
+(/home/aragorn/qm2/as2.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-08-07> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -80,7 +80,7 @@ LaTeX Info: Redefining \] on input line 2860.
 File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count188
 \l__pdf_internal_box=\box47
-) (/home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.aux)
+) (/home/aragorn/qm2/as2.aux)
 \openout1 = `as2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -99,17 +99,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
  [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (/home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.aux) ) 
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (/home/aragorn/qm2/as2.aux) ) 
 Here is how much of TeX's memory you used:
  987 strings out of 480893
- 13793 string characters out of 5908067
+ 13449 string characters out of 5908067
  257429 words of memory out of 5000000
  16661 multiletter control sequences out of 15000+600000
  535542 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,33p,273b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,33p,233b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "/home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.pdf" (3 pages, 97951 bytes).
+Output written on /home/aragorn/qm2/as2.pdf (3 pages, 97951 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

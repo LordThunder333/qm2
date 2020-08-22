@@ -1,9 +1,9 @@
-PWD /home/aragorn/Documents/course_work/PH 423/Assignment_2
+PWD /home/aragorn/qm2
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.tex
-OUTPUT /home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.log
+INPUT /home/aragorn/qm2/as2.tex
+OUTPUT /home/aragorn/qm2/as2.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
@@ -20,15 +20,15 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.aux
-INPUT /home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.aux
-OUTPUT /home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.aux
+INPUT /home/aragorn/qm2/as2.aux
+INPUT /home/aragorn/qm2/as2.aux
+OUTPUT /home/aragorn/qm2/as2.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-OUTPUT /home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.pdf
+OUTPUT /home/aragorn/qm2/as2.pdf
 INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/aragorn/Documents/course_work/PH 423/Assignment_2/as2.aux
+INPUT /home/aragorn/qm2/as2.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
