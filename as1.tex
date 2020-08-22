@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Assignment 1}
+\author{Mytraya Gattu}
+\date{14 August,2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Problem 1}
+Given that $$\langle x^{\prime} | X | x \rangle = x\delta\left(x^{\prime}-x\right)= x^{\prime}\delta\left(x^{\prime}-x\right)$$ and $$\left[X,P\right] = \imath \hbar$$.
+$$\langle x^{\prime} | \left[X,P\right] | x \rangle = \imath \hbar \delta\left(x^{\prime}-x\right)$$
+$$\langle x^{\prime} | \left[X,P\right] | x \rangle = \langle x^{\prime} | XP| x \rangle - \langle x^{\prime} | PX| x \rangle = x^{\prime}\langle x^{\prime} | P| x \rangle-x\langle x^{\prime} | P| x \rangle$$
+Therefore, 
+$$\langle x^{\prime} | P| x \rangle = \imath \hbar \frac{\delta\left(x^{\prime}-x\right)}{x^{\prime}-x} = -\imath \hbar \frac{d}{dx}\left(\delta \left(x-x^{\prime}\right) \right)$$
+\section{Problem 2}
+In the ket representation, 
+$$\partial_{t} |\psi(t) \rangle = -\frac{\imath H(t)}{\hbar} | \psi (t) \rangle$$
+The wave function $\psi (x,t) $ is defined as $\langle x | \psi (t) \rangle$. Using this and the identity $\int dx^{\prime} | x^{\prime} \rangle \langle x^{\prime} | = 1$,
+$$\partial_{t}\psi(x,t)=-\frac{i}{\hbar}\int dx^{\prime} \psi(x^{\prime},t) \langle x | H(t) | x^{\prime} \rangle$$
+Now, let's assume that $H(t)$ is given by $H(t) = \frac{P^2}{2m} + V$.
+$$ \langle x | H(t) | x^{\prime} \rangle =  \langle x | \frac{P^2}{2m} + V | x^{\prime} \rangle = \langle x | \frac{P^2}{2m}  | x^{\prime} \rangle + \langle x | V  | x^{\prime} \rangle$$
+To calculate the first term on RHS: \newline
+Using the identity $\langle x | p \rangle= \frac{1}{\sqrt{2 \pi\hbar}}e^{\frac{\imath}{\hbar} p x}$ and the operator identity $\int dp^{\prime} | p^{\prime} \rangle \langle p^{\prime} | = 1$, we get
+$$\langle x | \frac{P^2}{2m} | x^{\prime} \rangle =\int dp \frac{p^2}{4m\pi\hbar} e^{\frac{\imath}{\hbar} p x} e^{-\frac{\imath}{\hbar} p x^{\prime}}$$
+We know that $$\int dp e^{\frac{\imath}{\hbar} p (x-x^{\prime})} = 2\pi\hbar\delta(x-x^{\prime})$$
+Using this, therefore
+$$\int dx^{\prime} \psi (x^{\prime},t) \langle x | \frac{P^2}{2m} | x^{\prime} \rangle =\frac{\partial^{2}}{\partial x^{2}} \int dx^{\prime} (\frac{\hbar}{\imath})^{2} \frac{1}{2 m} \delta (x-x^{\prime}) \psi (x^{\prime},t)$$
+Therefore, we finally get:
+$$ -\frac{\hbar}{\imath}\frac{\partial}{\partial t}\psi(x,t) = (-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x))\psi(x,t)$$
+(Schrodinger's Equation)
+\section{Problem 3}
+For a free non-relativistic particle, $$H(t) = \frac{P^2}{2m}$$
+Using the operator identity in the momentum space, we have
+$$ \langle x | e^{-\frac{\imath}{\hbar}Ht} | x^{\prime} \rangle = \int dp \langle x |p \rangle  \langle p | e^{-\frac{\imath}{2\hbar m}P^2t} | x^{\prime} \rangle $$
+Simplifying,
+$$ \langle x | e^{-\frac{\imath}{\hbar}Ht} | x^{\prime} \rangle = \int dp \frac{1}{2\pi\hbar} e^{\frac{i}{\hbar}p\left(x-x^{\prime}\right)-\frac{\imath}{2\hbar m}p^2t}$$
+Resolving the integral, (by completing the square in the exponent):
+$$ \langle x^{\prime} | e^{-\frac{\imath}{\hbar}Ht} | x \rangle =\sqrt{-\frac{\imath m}{2 t \pi \hbar}} e^{\frac{i m (x-x^{\prime})^2}{2 \hbar t}}$$
+\subsection{Working}
+$$\frac{i p x}{h}-\frac{i p^2 t}{2 h m} = \frac{i m x^2}{2 h t}-\frac{i t \left(p-\frac{m x}{t}\right)^2}{2 h m}$$
+This implies, 
+$$e^{\frac{i p x}{h}-\frac{i p^2 t}{2 h m} }=e^{\frac{i m x^2}{2 h t}}e^{-\frac{i t \left(p-\frac{m x}{t}\right)^2}{2 h m}}$$
+The following is a standard integral, 
+$$\int_{-\infty}^{\infty} dx e^{-i x^2} = 	\sqrt{-\imath \pi}$$
+After, performing the appropriate scale transformations, the stated result is obtained.
+\end{document}
